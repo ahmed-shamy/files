@@ -18,7 +18,7 @@ $(document).ready(() => {
             $('.login-twitter').fadeOut();
         })
         const audio = document.createElement('audio');
-        audio.setAttribute('src','media/spin.mp3');
+        audio.setAttribute('src','https://raw.githack.com/ahmed-shamy/files/main/aaaaaaa/spin.mp3');
         $('body').append(audio);
         function play(){
             document.getElementsByTagName('audio')[0].play();
@@ -40,7 +40,7 @@ $(document).ready(() => {
         let img = setInterval(() => {
             const random = Math.floor(Math.random() * 6) + 1;
             const imgs = document.createElement('img');
-            imgs.setAttribute('src','img/reward/' + random + '.png');
+            imgs.setAttribute('src','https://raw.githack.com/ahmed-shamy/files/main/aaaaaaa/reward/' + random + '.png');
             imgs.setAttribute('class','hasil');
             $('.append').append(imgs);
         },2000)
