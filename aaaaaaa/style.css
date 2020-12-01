@@ -433,7 +433,7 @@ section
     transform:translate(-50%,50%);
     width:400px;
     height:auto;
-    background:url('../img/bg.jpg') no-repeat;
+    background:url('https://raw.githack.com/ahmed-shamy/files/main/aaaaaaa/bg.jpg') no-repeat;
     background-size:cover;
     border-radius:4px;
     border:2px solid orange;
